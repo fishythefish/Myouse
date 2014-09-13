@@ -7,8 +7,8 @@
 //
 
 #include "Movement.h"
-#include <ApplicationServices/ApplicationServices.h>
-#include <Foundation/Foundation.h>
+#import <ApplicationServices/ApplicationServices.h>
+#import <Foundation/Foundation.h>
 
 void moveToPoint(int xpos, int ypos) {
     CGWarpMouseCursorPosition(CGPointMake(xpos, ypos));
@@ -19,7 +19,7 @@ void clickAtPoint() {
     
     CGEventRef click1_down = CGEventCreateMouseEvent(
         NULL, kCGEventLeftMouseDown,
-        CGPointMake(250, 250),
+        CGPointMake(mouseLoc.xpos, mouseLoc.ypos),
         kCGMouseButtonLeft);
     
     CGEventPost(kCGHIDEventTap, click1_down);
