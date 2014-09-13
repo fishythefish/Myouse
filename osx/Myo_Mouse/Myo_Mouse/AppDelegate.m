@@ -22,7 +22,6 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
     
     CGWarpMouseCursorPosition(CGPointMake(100, 100));
 }

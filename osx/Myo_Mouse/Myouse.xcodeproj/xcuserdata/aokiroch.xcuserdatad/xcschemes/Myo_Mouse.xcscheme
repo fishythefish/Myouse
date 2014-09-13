@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "586E594B19C4058500258CE1"
                BuildableName = "Myo_Mouse.app"
-               BlueprintName = "Myo_Mouse"
-               ReferencedContainer = "container:Myo_Mouse.xcodeproj">
+               BlueprintName = "Myouse"
+               ReferencedContainer = "container:Myouse.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "586E596C19C4058500258CE1"
                BuildableName = "Myo_MouseTests.xctest"
-               BlueprintName = "Myo_MouseTests"
-               ReferencedContainer = "container:Myo_Mouse.xcodeproj">
+               BlueprintName = "MyouseTests"
+               ReferencedContainer = "container:Myouse.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "586E594B19C4058500258CE1"
             BuildableName = "Myo_Mouse.app"
-            BlueprintName = "Myo_Mouse"
-            ReferencedContainer = "container:Myo_Mouse.xcodeproj">
+            BlueprintName = "Myouse"
+            ReferencedContainer = "container:Myouse.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "586E594B19C4058500258CE1"
             BuildableName = "Myo_Mouse.app"
-            BlueprintName = "Myo_Mouse"
-            ReferencedContainer = "container:Myo_Mouse.xcodeproj">
+            BlueprintName = "Myouse"
+            ReferencedContainer = "container:Myouse.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "586E594B19C4058500258CE1"
             BuildableName = "Myo_Mouse.app"
-            BlueprintName = "Myo_Mouse"
-            ReferencedContainer = "container:Myo_Mouse.xcodeproj">
+            BlueprintName = "Myouse"
+            ReferencedContainer = "container:Myouse.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

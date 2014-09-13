@@ -17,7 +17,7 @@
 		586E596F19C4058500258CE1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586E596E19C4058500258CE1 /* XCTest.framework */; };
 		586E597019C4058500258CE1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586E594F19C4058500258CE1 /* Cocoa.framework */; };
 		586E597819C4058500258CE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 586E597619C4058500258CE1 /* InfoPlist.strings */; };
-		586E597A19C4058500258CE1 /* Myo_MouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 586E597919C4058500258CE1 /* Myo_MouseTests.m */; };
+		586E597A19C4058500258CE1 /* MyouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 586E597919C4058500258CE1 /* MyouseTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,25 +31,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		586E594C19C4058500258CE1 /* Myo_Mouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Myo_Mouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		586E594C19C4058500258CE1 /* Myouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Myouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		586E594F19C4058500258CE1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		586E595219C4058500258CE1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		586E595319C4058500258CE1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		586E595419C4058500258CE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		586E595719C4058500258CE1 /* Myo_Mouse-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Myo_Mouse-Info.plist"; sourceTree = "<group>"; };
+		586E595719C4058500258CE1 /* Myouse-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Myouse-Info.plist"; sourceTree = "<group>"; };
 		586E595919C4058500258CE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		586E595B19C4058500258CE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		586E595D19C4058500258CE1 /* Myo_Mouse-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Myo_Mouse-Prefix.pch"; sourceTree = "<group>"; };
+		586E595D19C4058500258CE1 /* Myouse-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Myouse-Prefix.pch"; sourceTree = "<group>"; };
 		586E595F19C4058500258CE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		586E596119C4058500258CE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		586E596219C4058500258CE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		586E596519C4058500258CE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		586E596719C4058500258CE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		586E596D19C4058500258CE1 /* Myo_MouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Myo_MouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		586E596D19C4058500258CE1 /* MyouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		586E596E19C4058500258CE1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		586E597519C4058500258CE1 /* Myo_MouseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Myo_MouseTests-Info.plist"; sourceTree = "<group>"; };
+		586E597519C4058500258CE1 /* MyouseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyouseTests-Info.plist"; sourceTree = "<group>"; };
 		586E597719C4058500258CE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		586E597919C4058500258CE1 /* Myo_MouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Myo_MouseTests.m; sourceTree = "<group>"; };
+		586E597919C4058500258CE1 /* MyouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyouseTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +76,8 @@
 		586E594319C4058400258CE1 = {
 			isa = PBXGroup;
 			children = (
-				586E595519C4058500258CE1 /* Myo_Mouse */,
-				586E597319C4058500258CE1 /* Myo_MouseTests */,
+				586E595519C4058500258CE1 /* Myouse */,
+				586E597319C4058500258CE1 /* MyouseTests */,
 				586E594E19C4058500258CE1 /* Frameworks */,
 				586E594D19C4058500258CE1 /* Products */,
 			);
@@ -86,8 +86,8 @@
 		586E594D19C4058500258CE1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				586E594C19C4058500258CE1 /* Myo_Mouse.app */,
-				586E596D19C4058500258CE1 /* Myo_MouseTests.xctest */,
+				586E594C19C4058500258CE1 /* Myouse.app */,
+				586E596D19C4058500258CE1 /* MyouseTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,7 +112,7 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		586E595519C4058500258CE1 /* Myo_Mouse */ = {
+		586E595519C4058500258CE1 /* Myouse */ = {
 			isa = PBXGroup;
 			children = (
 				586E596119C4058500258CE1 /* AppDelegate.h */,
@@ -121,34 +121,36 @@
 				586E596719C4058500258CE1 /* Images.xcassets */,
 				586E595619C4058500258CE1 /* Supporting Files */,
 			);
+			name = Myouse;
 			path = Myo_Mouse;
 			sourceTree = "<group>";
 		};
 		586E595619C4058500258CE1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				586E595719C4058500258CE1 /* Myo_Mouse-Info.plist */,
+				586E595719C4058500258CE1 /* Myouse-Info.plist */,
 				586E595819C4058500258CE1 /* InfoPlist.strings */,
 				586E595B19C4058500258CE1 /* main.m */,
-				586E595D19C4058500258CE1 /* Myo_Mouse-Prefix.pch */,
+				586E595D19C4058500258CE1 /* Myouse-Prefix.pch */,
 				586E595E19C4058500258CE1 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		586E597319C4058500258CE1 /* Myo_MouseTests */ = {
+		586E597319C4058500258CE1 /* MyouseTests */ = {
 			isa = PBXGroup;
 			children = (
-				586E597919C4058500258CE1 /* Myo_MouseTests.m */,
+				586E597919C4058500258CE1 /* MyouseTests.m */,
 				586E597419C4058500258CE1 /* Supporting Files */,
 			);
+			name = MyouseTests;
 			path = Myo_MouseTests;
 			sourceTree = "<group>";
 		};
 		586E597419C4058500258CE1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				586E597519C4058500258CE1 /* Myo_MouseTests-Info.plist */,
+				586E597519C4058500258CE1 /* MyouseTests-Info.plist */,
 				586E597619C4058500258CE1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -157,9 +159,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		586E594B19C4058500258CE1 /* Myo_Mouse */ = {
+		586E594B19C4058500258CE1 /* Myouse */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 586E597D19C4058500258CE1 /* Build configuration list for PBXNativeTarget "Myo_Mouse" */;
+			buildConfigurationList = 586E597D19C4058500258CE1 /* Build configuration list for PBXNativeTarget "Myouse" */;
 			buildPhases = (
 				586E594819C4058500258CE1 /* Sources */,
 				586E594919C4058500258CE1 /* Frameworks */,
@@ -169,14 +171,14 @@
 			);
 			dependencies = (
 			);
-			name = Myo_Mouse;
+			name = Myouse;
 			productName = Myo_Mouse;
-			productReference = 586E594C19C4058500258CE1 /* Myo_Mouse.app */;
+			productReference = 586E594C19C4058500258CE1 /* Myouse.app */;
 			productType = "com.apple.product-type.application";
 		};
-		586E596C19C4058500258CE1 /* Myo_MouseTests */ = {
+		586E596C19C4058500258CE1 /* MyouseTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 586E598019C4058500258CE1 /* Build configuration list for PBXNativeTarget "Myo_MouseTests" */;
+			buildConfigurationList = 586E598019C4058500258CE1 /* Build configuration list for PBXNativeTarget "MyouseTests" */;
 			buildPhases = (
 				586E596919C4058500258CE1 /* Sources */,
 				586E596A19C4058500258CE1 /* Frameworks */,
@@ -187,9 +189,9 @@
 			dependencies = (
 				586E597219C4058500258CE1 /* PBXTargetDependency */,
 			);
-			name = Myo_MouseTests;
+			name = MyouseTests;
 			productName = Myo_MouseTests;
-			productReference = 586E596D19C4058500258CE1 /* Myo_MouseTests.xctest */;
+			productReference = 586E596D19C4058500258CE1 /* MyouseTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +208,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 586E594719C4058400258CE1 /* Build configuration list for PBXProject "Myo_Mouse" */;
+			buildConfigurationList = 586E594719C4058400258CE1 /* Build configuration list for PBXProject "Myouse" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -219,8 +221,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				586E594B19C4058500258CE1 /* Myo_Mouse */,
-				586E596C19C4058500258CE1 /* Myo_MouseTests */,
+				586E594B19C4058500258CE1 /* Myouse */,
+				586E596C19C4058500258CE1 /* MyouseTests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,7 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				586E597A19C4058500258CE1 /* Myo_MouseTests.m in Sources */,
+				586E597A19C4058500258CE1 /* MyouseTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +272,7 @@
 /* Begin PBXTargetDependency section */
 		586E597219C4058500258CE1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 586E594B19C4058500258CE1 /* Myo_Mouse */;
+			target = 586E594B19C4058500258CE1 /* Myouse */;
 			targetProxy = 586E597119C4058500258CE1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -385,9 +387,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Myo_Mouse/Myo_Mouse-Prefix.pch";
-				INFOPLIST_FILE = "Myo_Mouse/Myo_Mouse-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Myo_Mouse/Myouse-Prefix.pch";
+				INFOPLIST_FILE = "Myo_Mouse/Myouse-Info.plist";
+				PRODUCT_NAME = Myouse;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -398,9 +400,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Myo_Mouse/Myo_Mouse-Prefix.pch";
-				INFOPLIST_FILE = "Myo_Mouse/Myo_Mouse-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Myo_Mouse/Myouse-Prefix.pch";
+				INFOPLIST_FILE = "Myo_Mouse/Myouse-Info.plist";
+				PRODUCT_NAME = Myouse;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -420,8 +422,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Myo_MouseTests/Myo_MouseTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Myo_MouseTests/MyouseTests-Info.plist";
+				PRODUCT_NAME = MyouseTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -438,8 +440,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Myo_Mouse/Myo_Mouse-Prefix.pch";
-				INFOPLIST_FILE = "Myo_MouseTests/Myo_MouseTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Myo_MouseTests/MyouseTests-Info.plist";
+				PRODUCT_NAME = MyouseTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -448,7 +450,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		586E594719C4058400258CE1 /* Build configuration list for PBXProject "Myo_Mouse" */ = {
+		586E594719C4058400258CE1 /* Build configuration list for PBXProject "Myouse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				586E597B19C4058500258CE1 /* Debug */,
@@ -457,7 +459,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		586E597D19C4058500258CE1 /* Build configuration list for PBXNativeTarget "Myo_Mouse" */ = {
+		586E597D19C4058500258CE1 /* Build configuration list for PBXNativeTarget "Myouse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				586E597E19C4058500258CE1 /* Debug */,
@@ -465,7 +467,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		586E598019C4058500258CE1 /* Build configuration list for PBXNativeTarget "Myo_MouseTests" */ = {
+		586E598019C4058500258CE1 /* Build configuration list for PBXNativeTarget "MyouseTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				586E598119C4058500258CE1 /* Debug */,

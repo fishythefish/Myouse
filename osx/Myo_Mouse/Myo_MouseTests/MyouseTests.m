@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface Myo_MouseTests : XCTestCase
+@interface MyouseTests : XCTestCase
 
 @end
 
-@implementation Myo_MouseTests
+@implementation MyouseTests
 
 - (void)setUp
 {
