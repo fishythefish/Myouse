@@ -8,12 +8,15 @@
 
 #include "Movement.h"
 #include <ApplicationServices/ApplicationServices.h>
+#include <Foundation/Foundation.h>
 
 void moveToPoint(int xpos, int ypos) {
     CGWarpMouseCursorPosition(CGPointMake(xpos, ypos));
 }
 
 void clickAtPoint() {
+    NSPoint mouseLoc = [NSEvent mouseLocation];
+    
     CGEventRef click1_down = CGEventCreateMouseEvent(
         NULL, kCGEventLeftMouseDown,
         CGPointMake(250, 250),
@@ -21,4 +24,16 @@ void clickAtPoint() {
     
     CGEventPost(kCGHIDEventTap, click1_down);
     CFRelease(click1_down);
+}
+
+void unClickAtPoint() {
+    
+    
+    CGEventRef click1_up = CGEventCreateMouseEvent(
+        NULL, kCGEventLeftMouseUp,
+        CGPointMake(250, 250),
+        kCGMouseButtonLeft);
+    
+    CGEventPost(kCGHIDEventTap, click1_up);
+    CFRelease(click1_up);
 }
