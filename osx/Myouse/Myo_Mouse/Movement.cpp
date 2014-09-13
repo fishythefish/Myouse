@@ -1,0 +1,24 @@
+//
+//  Movement.cpp
+//  Myouse
+//
+//  Created by Andrew Rochman on 9/13/14.
+//  Copyright (c) 2014 Andrew Rochman. All rights reserved.
+//
+
+#include "Movement.h"
+#include <ApplicationServices/ApplicationServices.h>
+
+void moveToPoint(int xpos, int ypos) {
+    CGWarpMouseCursorPosition(CGPointMake(xpos, ypos));
+}
+
+void clickAtPoint() {
+    CGEventRef click1_down = CGEventCreateMouseEvent(
+        NULL, kCGEventLeftMouseDown,
+        CGPointMake(250, 250),
+        kCGMouseButtonLeft);
+    
+    CGEventPost(kCGHIDEventTap, click1_down);
+    CFRelease(click1_down);
+}

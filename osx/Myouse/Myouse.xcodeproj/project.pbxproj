@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		583057B619C41950001D4B9B /* Movement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 583057B419C41950001D4B9B /* Movement.cpp */; };
 		586E595019C4058500258CE1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586E594F19C4058500258CE1 /* Cocoa.framework */; };
 		586E595A19C4058500258CE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 586E595819C4058500258CE1 /* InfoPlist.strings */; };
 		586E595C19C4058500258CE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 586E595B19C4058500258CE1 /* main.m */; };
@@ -31,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		583057B419C41950001D4B9B /* Movement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Movement.cpp; sourceTree = "<group>"; };
+		583057B519C41950001D4B9B /* Movement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movement.h; sourceTree = "<group>"; };
 		586E594C19C4058500258CE1 /* Myouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Myouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		586E594F19C4058500258CE1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		586E595219C4058500258CE1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -119,6 +122,8 @@
 				586E596219C4058500258CE1 /* AppDelegate.m */,
 				586E596419C4058500258CE1 /* MainMenu.xib */,
 				586E596719C4058500258CE1 /* Images.xcassets */,
+				583057B419C41950001D4B9B /* Movement.cpp */,
+				583057B519C41950001D4B9B /* Movement.h */,
 				586E595619C4058500258CE1 /* Supporting Files */,
 			);
 			name = Myouse;
@@ -256,6 +261,7 @@
 			files = (
 				586E596319C4058500258CE1 /* AppDelegate.m in Sources */,
 				586E595C19C4058500258CE1 /* main.m in Sources */,
+				583057B619C41950001D4B9B /* Movement.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +472,7 @@
 				586E597F19C4058500258CE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		586E598019C4058500258CE1 /* Build configuration list for PBXNativeTarget "MyouseTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +481,7 @@
 				586E598219C4058500258CE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
