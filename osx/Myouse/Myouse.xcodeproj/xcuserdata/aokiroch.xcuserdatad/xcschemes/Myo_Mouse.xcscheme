@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "586E594B19C4058500258CE1"
-               BuildableName = "Myo_Mouse.app"
+               BuildableName = "Myouse.app"
                BlueprintName = "Myouse"
                ReferencedContainer = "container:Myouse.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "586E596C19C4058500258CE1"
-               BuildableName = "Myo_MouseTests.xctest"
+               BuildableName = "MyouseTests.xctest"
                BlueprintName = "MyouseTests"
                ReferencedContainer = "container:Myouse.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "586E594B19C4058500258CE1"
-            BuildableName = "Myo_Mouse.app"
+            BuildableName = "Myouse.app"
             BlueprintName = "Myouse"
             ReferencedContainer = "container:Myouse.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "586E594B19C4058500258CE1"
-            BuildableName = "Myo_Mouse.app"
+            BuildableName = "Myouse.app"
             BlueprintName = "Myouse"
             ReferencedContainer = "container:Myouse.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "586E594B19C4058500258CE1"
-            BuildableName = "Myo_Mouse.app"
+            BuildableName = "Myouse.app"
             BlueprintName = "Myouse"
             ReferencedContainer = "container:Myouse.xcodeproj">
          </BuildableReference>
