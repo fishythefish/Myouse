@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B926CEA519C56B9C00CE7184 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B926CEA419C56B9C00CE7184 /* main.m */; };
+		B926CEA819C56B9C00CE7184 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = B926CEA719C56B9C00CE7184 /* AppDelegate.mm */; };
+		B926CEAA19C56B9C00CE7184 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B926CEA919C56B9C00CE7184 /* Images.xcassets */; };
+		B926CEAD19C56B9C00CE7184 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B926CEAB19C56B9C00CE7184 /* MainMenu.xib */; };
+		B926CEB919C56B9C00CE7184 /* MyouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B926CEB819C56B9C00CE7184 /* MyouseTests.m */; };
+		B926CEC719C56FD900CE7184 /* myouse.mm in Sources */ = {isa = PBXBuildFile; fileRef = B926CEC519C56FD900CE7184 /* myouse.mm */; };
+		B926CEC819C56FD900CE7184 /* MyouseListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = B926CEC619C56FD900CE7184 /* MyouseListener.mm */; };
+		B9DFF11919C571B700BE157F /* myo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9DFF11819C571B700BE157F /* myo.framework */; };
+		B9DFF11C19C5759400BE157F /* MyouseController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DFF11B19C5759400BE157F /* MyouseController.m */; };
+		B9DFF11E19C5819400BE157F /* myo.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B9DFF11819C571B700BE157F /* myo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B926CEB319C56B9C00CE7184 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B926CE9719C56B9C00CE7184 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B926CE9E19C56B9C00CE7184;
+			remoteInfo = Myouse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B9DFF11D19C5817D00BE157F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B9DFF11E19C5819400BE157F /* myo.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B926CE9F19C56B9C00CE7184 /* Myouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Myouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B926CEA319C56B9C00CE7184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B926CEA419C56B9C00CE7184 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B926CEA619C56B9C00CE7184 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B926CEA719C56B9C00CE7184 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		B926CEA919C56B9C00CE7184 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B926CEAC19C56B9C00CE7184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B926CEB219C56B9C00CE7184 /* MyouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B926CEB719C56B9C00CE7184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B926CEB819C56B9C00CE7184 /* MyouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyouseTests.m; sourceTree = "<group>"; };
+		B926CEC519C56FD900CE7184 /* myouse.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = myouse.mm; sourceTree = "<group>"; };
+		B926CEC619C56FD900CE7184 /* MyouseListener.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyouseListener.mm; sourceTree = "<group>"; };
+		B926CEC919C56FE900CE7184 /* MyouseListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyouseListener.h; sourceTree = "<group>"; };
+		B9DFF11819C571B700BE157F /* myo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = myo.framework; sourceTree = "<group>"; };
+		B9DFF11A19C5759400BE157F /* MyouseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyouseController.h; sourceTree = SOURCE_ROOT; };
+		B9DFF11B19C5759400BE157F /* MyouseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyouseController.m; sourceTree = SOURCE_ROOT; };
+		B9DFF11F19C5823000BE157F /* myouse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myouse.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B926CE9C19C56B9C00CE7184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9DFF11919C571B700BE157F /* myo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B926CEAF19C56B9C00CE7184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B926CE9619C56B9C00CE7184 = {
+			isa = PBXGroup;
+			children = (
+				B926CEA119C56B9C00CE7184 /* Myouse */,
+				B926CEB519C56B9C00CE7184 /* MyouseTests */,
+				B926CEA019C56B9C00CE7184 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B926CEA019C56B9C00CE7184 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B926CE9F19C56B9C00CE7184 /* Myouse.app */,
+				B926CEB219C56B9C00CE7184 /* MyouseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B926CEA119C56B9C00CE7184 /* Myouse */ = {
+			isa = PBXGroup;
+			children = (
+				B926CEA619C56B9C00CE7184 /* AppDelegate.h */,
+				B926CEA719C56B9C00CE7184 /* AppDelegate.mm */,
+				B926CEC919C56FE900CE7184 /* MyouseListener.h */,
+				B9DFF11A19C5759400BE157F /* MyouseController.h */,
+				B9DFF11B19C5759400BE157F /* MyouseController.m */,
+				B926CEC619C56FD900CE7184 /* MyouseListener.mm */,
+				B9DFF11F19C5823000BE157F /* myouse.h */,
+				B926CEC519C56FD900CE7184 /* myouse.mm */,
+				B926CEA919C56B9C00CE7184 /* Images.xcassets */,
+				B926CEAB19C56B9C00CE7184 /* MainMenu.xib */,
+				B9DFF11819C571B700BE157F /* myo.framework */,
+				B926CEA219C56B9C00CE7184 /* Supporting Files */,
+			);
+			path = Myouse;
+			sourceTree = "<group>";
+		};
+		B926CEA219C56B9C00CE7184 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B926CEA319C56B9C00CE7184 /* Info.plist */,
+				B926CEA419C56B9C00CE7184 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B926CEB519C56B9C00CE7184 /* MyouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				B926CEB819C56B9C00CE7184 /* MyouseTests.m */,
+				B926CEB619C56B9C00CE7184 /* Supporting Files */,
+			);
+			path = MyouseTests;
+			sourceTree = "<group>";
+		};
+		B926CEB619C56B9C00CE7184 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B926CEB719C56B9C00CE7184 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B926CE9E19C56B9C00CE7184 /* Myouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B926CEBC19C56B9C00CE7184 /* Build configuration list for PBXNativeTarget "Myouse" */;
+			buildPhases = (
+				B9DFF11D19C5817D00BE157F /* CopyFiles */,
+				B926CE9B19C56B9C00CE7184 /* Sources */,
+				B926CE9C19C56B9C00CE7184 /* Frameworks */,
+				B926CE9D19C56B9C00CE7184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Myouse;
+			productName = Myouse;
+			productReference = B926CE9F19C56B9C00CE7184 /* Myouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B926CEB119C56B9C00CE7184 /* MyouseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B926CEBF19C56B9C00CE7184 /* Build configuration list for PBXNativeTarget "MyouseTests" */;
+			buildPhases = (
+				B926CEAE19C56B9C00CE7184 /* Sources */,
+				B926CEAF19C56B9C00CE7184 /* Frameworks */,
+				B926CEB019C56B9C00CE7184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B926CEB419C56B9C00CE7184 /* PBXTargetDependency */,
+			);
+			name = MyouseTests;
+			productName = MyouseTests;
+			productReference = B926CEB219C56B9C00CE7184 /* MyouseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B926CE9719C56B9C00CE7184 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Thomas Finch";
+				TargetAttributes = {
+					B926CE9E19C56B9C00CE7184 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					B926CEB119C56B9C00CE7184 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = B926CE9E19C56B9C00CE7184;
+					};
+				};
+			};
+			buildConfigurationList = B926CE9A19C56B9C00CE7184 /* Build configuration list for PBXProject "Myouse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B926CE9619C56B9C00CE7184;
+			productRefGroup = B926CEA019C56B9C00CE7184 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B926CE9E19C56B9C00CE7184 /* Myouse */,
+				B926CEB119C56B9C00CE7184 /* MyouseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B926CE9D19C56B9C00CE7184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B926CEAA19C56B9C00CE7184 /* Images.xcassets in Resources */,
+				B926CEAD19C56B9C00CE7184 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B926CEB019C56B9C00CE7184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B926CE9B19C56B9C00CE7184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B926CEA819C56B9C00CE7184 /* AppDelegate.mm in Sources */,
+				B926CEC819C56FD900CE7184 /* MyouseListener.mm in Sources */,
+				B9DFF11C19C5759400BE157F /* MyouseController.m in Sources */,
+				B926CEC719C56FD900CE7184 /* myouse.mm in Sources */,
+				B926CEA519C56B9C00CE7184 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B926CEAE19C56B9C00CE7184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B926CEB919C56B9C00CE7184 /* MyouseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B926CEB419C56B9C00CE7184 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B926CE9E19C56B9C00CE7184 /* Myouse */;
+			targetProxy = B926CEB319C56B9C00CE7184 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B926CEAB19C56B9C00CE7184 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B926CEAC19C56B9C00CE7184 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B926CEBA19C56B9C00CE7184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B926CEBB19C56B9C00CE7184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B926CEBD19C56B9C00CE7184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Myouse",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Myouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B926CEBE19C56B9C00CE7184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Myouse",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Myouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B926CEC019C56B9C00CE7184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyouseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Myouse.app/Contents/MacOS/Myouse";
+			};
+			name = Debug;
+		};
+		B926CEC119C56B9C00CE7184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyouseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Myouse.app/Contents/MacOS/Myouse";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B926CE9A19C56B9C00CE7184 /* Build configuration list for PBXProject "Myouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B926CEBA19C56B9C00CE7184 /* Debug */,
+				B926CEBB19C56B9C00CE7184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B926CEBC19C56B9C00CE7184 /* Build configuration list for PBXNativeTarget "Myouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B926CEBD19C56B9C00CE7184 /* Debug */,
+				B926CEBE19C56B9C00CE7184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B926CEBF19C56B9C00CE7184 /* Build configuration list for PBXNativeTarget "MyouseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B926CEC019C56B9C00CE7184 /* Debug */,
+				B926CEC119C56B9C00CE7184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B926CE9719C56B9C00CE7184 /* Project object */;
+}
