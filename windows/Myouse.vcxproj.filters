@@ -54,5 +54,16 @@
     <ClInclude Include="include\myo\libmyo\detail\visibility.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\myouse\MyouseListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\myouse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyouseListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

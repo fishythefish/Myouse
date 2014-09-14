@@ -1,5 +1,8 @@
 #include <myo/myo.hpp>
+#include <myouse/MyouseListener.h>
 #include <Windows.h>
+
+static const int FRAMES_PER_SECOND = 60;
 
 int main(int argc, char ** argv)
 {
@@ -18,6 +21,24 @@ int main(int argc, char ** argv)
 
 		std::cout << "Connected to a Myo." << std::endl << std::endl;
 
+		myouse::MyouseListener listener;
 
+		hub.addListener(&listener);
+
+
+
+		while (true)
+		{
+			hub.run(1000 / FRAMES_PER_SECOND);
+		}
 	}
+	catch (const std::exception & e)
+	{
+		std::cerr << "Error: " << e.what() << std::endl;
+		std::cerr << "Press <enter> to continue.";
+		std::cin.ignore();
+		return 1;
+	}
+
+	return 0;
 }

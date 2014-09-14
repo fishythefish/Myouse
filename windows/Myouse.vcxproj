@@ -48,11 +48,14 @@
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Users\Mayank\Documents\GitHub\Myouse\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <TargetMachine>MachineX86</TargetMachine>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>C:\Users\Mayank\Documents\GitHub\Myouse\windows\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>myo64.lib;myo32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -71,6 +74,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="include\myouse\MyouseListener.h" />
     <ClInclude Include="include\myo\cxx\detail\ThrowOnError.hpp" />
     <ClInclude Include="include\myo\cxx\DeviceListener.hpp" />
     <ClInclude Include="include\myo\cxx\Hub.hpp" />
@@ -84,6 +88,10 @@
     <ClInclude Include="include\myo\libmyo.h" />
     <ClInclude Include="include\myo\libmyo\detail\visibility.h" />
     <ClInclude Include="include\myo\myo.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\myouse.cpp" />
+    <ClCompile Include="src\MyouseListener.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
