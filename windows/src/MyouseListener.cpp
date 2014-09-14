@@ -1,5 +1,3 @@
-#define _USE_MATH_DEFINES
-
 #include <myo/myo.hpp>
 #include <myo/cxx/Quaternion.hpp>
 #include <myouse/MyouseListener.h>
@@ -13,8 +11,7 @@ static const double Y_SCALE_FACTOR = 65535.0 / (SCREEN_HEIGHT - 1);
 static const double X_SPEED = 1;
 static const double Y_SPEED = SCREEN_WIDTH * 1.0 / SCREEN_HEIGHT;
 static const int DRAG_THRESHOLD = 10;
-static const double SCROLL_THRESHOLD = M_PI / 24;
-static const double SCROLL_SPEED = 10;
+static const double SCROLL_SPEED = 60;
 
 myouse::MyouseListener::MyouseListener()
 	: myo(0), xDir(), isEnabled(false),
@@ -143,11 +140,7 @@ void myouse::MyouseListener::onOrientationData(myo::Myo * myo, uint64_t timestam
 
 	if (isScrolling)
 	{
-		if (pitch > SCROLL_THRESHOLD
-			|| pitch < -SCROLL_THRESHOLD)
-		{
-			scroll(-pitch * SCROLL_SPEED / SCROLL_THRESHOLD);
-		}
+		scroll(-pitch * SCROLL_SPEED);
 	}
 	else
 	{
