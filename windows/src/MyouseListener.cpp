@@ -151,9 +151,6 @@ void myouse::MyouseListener::onOrientationData(myo::Myo * myo, uint64_t timestam
 	}
 	else
 	{
-		//moveMouse(SCREEN_WIDTH * (0.5 - X_SPEED * sin(yaw)),
-		//	SCREEN_HEIGHT * (0.5 + Y_SPEED * sin(pitch)));
-
 		int x = SCREEN_WIDTH * (0.5 - X_SPEED * yaw);
 		int y = SCREEN_HEIGHT * (0.5 + Y_SPEED * pitch);
 
@@ -162,8 +159,7 @@ void myouse::MyouseListener::onOrientationData(myo::Myo * myo, uint64_t timestam
 
 		if (!dragging || dist > DRAG_THRESHOLD)
 		{
-			moveMouse(SCREEN_WIDTH * (0.5 - X_SPEED * yaw),
-				SCREEN_HEIGHT * (0.5 + Y_SPEED * pitch));
+			moveMouse(x, y);
 
 			lastX = x;
 			lastY = y;

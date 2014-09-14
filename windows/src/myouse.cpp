@@ -25,8 +25,6 @@ int main(int argc, char ** argv)
 
 		hub.addListener(&listener);
 
-
-
 		while (true)
 		{
 			hub.run(1000 / FRAMES_PER_SECOND);
